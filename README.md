@@ -1,2 +1,8 @@
-# dot-files
-A collection of my dot files =^)
+# .\*
+
+My dot-files.
+
+Table of contents:
+
+-   [IDEs](./IDE/)
+    -   [VSCodium](./IDE/vscodium/)
