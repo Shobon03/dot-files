@@ -1,0 +1,164 @@
+{
+  // Editor
+  "workbench.statusBar.visible": false,
+  "workbench.editor.labelFormat": "short",
+  "workbench.layoutControl.enabled": false,
+  "workbench.activityBar.location": "top",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "catppuccin-mocha",
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.sideBar.location": "right",
+  "editor.rulers": [
+    80,
+    140,
+    200
+  ],
+  "editor.guides.highlightActiveIndentation": true,
+  "editor.guides.bracketPairs": true,
+  "editor.fontFamily": "IBM Plex Mono",
+  "editor.fontWeight": 400,
+  "editor.fontSize": 17,
+  "editor.fontLigatures": false,
+  "editor.lineHeight": 1.5,
+  "editor.letterSpacing": 0,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.renderLineHighlight": "gutter",
+  "editor.guides.bracketPairsHorizontal": "active",
+  "editor.semanticHighlighting.enabled": false,
+  "editor.scrollbar.vertical": "visible",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "window.zoomLevel": 0.4,
+  "window.titleBarStyle": "custom",
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "toggle",
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "breadcrumbs.enabled": false,
+  "emmet.includeLanguages": {
+    "blade": "html"
+  },
+  // File-specific
+  "[c][cpp]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  // "[latex]": {
+  //   "editor.formatOnPaste": false,
+  //   "editor.defaultFormatter": "James-Yu.latex-workshop"
+  // },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "prettier.tabWidth": 2,
+    "prettier.htmlWhitespaceSensitivity": "ignore",
+    "prettier.bracketSameLine": false
+  },
+  "[markdown]": {
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    },
+    "cSpell.fixSpellingWithRenameProvider": true,
+    "cSpell.advanced.feature.useReferenceProviderWithRename": true,
+    "cSpell.advanced.feature.useReferenceProviderRemove": "/^#+\\s/",
+    "editor.formatOnSave": false
+  },
+  "[css][scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "prettier.tabWidth": 2
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "[javascript][javascriptreact][json][jsonc][typescript][typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // "editor.formatOnSave": true
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+    "editor.tabSize": 4
+  },
+  "[blade]": {
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4
+  },
+  // Extensions
+  "bladeFormatter.format.wrapAttributes": "force-expand-multiline",
+  "prettier.tabWidth": 2,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "symbols.hidesExplorerArrows": false,
+  "tailwind-fold.foldStyle": "ALL",
+  "tailwind-fold.foldedText": "...",
+  "tailwind-fold.foldLengthThreshold": 80,
+  "tailwind-fold.autoFold": false,
+  "tailwind-fold.unfoldedTextOpacity": 1,
+  "tailwind-fold.unfoldIfLineSelected": true,
+  "cSpell.language": "en,pt,pt-BR",
+  "cSpell.userWords": [
+    "Archlinux",
+    "clsx",
+    "cnpj",
+    "Datepicker",
+    "dayjs",
+    "dbname",
+    "devs",
+    "divs",
+    "europ",
+    "Europ",
+    "fastify",
+    "Fastify",
+    "Flowbite",
+    "gelica",
+    "generali",
+    "github",
+    "godotenv",
+    "gonic",
+    "gorm",
+    "Laravel",
+    "Neovim",
+    "nfse",
+    "nums",
+    "Piovezan",
+    "postgres",
+    "Postgresql",
+    "Pressable",
+    "roboto",
+    "sslmode",
+    "strapi",
+    "Swiper",
+    "usuario",
+    "usuarios",
+    "webp",
+    "whatsapp",
+    "Wordmark"
+  ],
+  "go.toolsManagement.autoUpdate": true,
+  "asm-code-lens.enableCodeLenses": false,
+  "redhat.telemetry.enabled": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.customTitleBarVisibility": "auto",
+  "bladeFormatter.format.wrapAttributesMinAttrs": 10,
+  "bladeFormatter.format.wrapLineLength": 1000,
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "Prettier-SQL.SQLFlavourOverride": "sqlite",
+  "MinifyAll.PrefixOfNewMinifiedFiles": ".min",
+  "workbench.productIconTheme": "fluent-icons"
+}
